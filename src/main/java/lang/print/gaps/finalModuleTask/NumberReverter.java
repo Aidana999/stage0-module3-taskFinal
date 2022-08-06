@@ -10,9 +10,9 @@ public class NumberReverter {
         return rev_num;
     }
 
-    public static void main(String[] args)
+    public void main(String[] args)
     {
-        int num = 4562;
+        int number = 4562;
         System.out.println(revert(number));
     }
 }
