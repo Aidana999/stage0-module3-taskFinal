@@ -10,11 +10,9 @@ public class NumberReverter {
         return rev_num;
     }
 
-    // Driver code
     public static void main(String[] args)
     {
         int num = 4562;
-        System.out.println("Reverse of no. is "
-                + revert(num));
+        System.out.println(revert(number));
     }
 }
