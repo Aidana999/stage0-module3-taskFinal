@@ -2,10 +2,9 @@ package lang.print.gaps.finalModuleTask;
 
 public class NumbersPrinter {
     public void printIsPositive(int number) {
-           if (number>=1) {
-               return true; 
-           } else {
-               return false;
-           }  
+        int first = 9;
+        int second = -17;
+        if (first > second) {
+            System.out.println(false);
     }
 }
